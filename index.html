@@ -1,64 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- hoja de estilos -->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <!-- título de página -->
-    <title>Título de la página</title>
+    <title>CV-Rafael García</title>
     <!-- ícono de pàgina -->
-    <!-- fuentes -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <!-- javascript -->
+    <script src="js/code.js"></script>
 </head>
-<body>
-<div class="row">
-    <div class="column-1">
-        <p>1</p>
-    </div>
-</div>
-<div class="row">
-    <div class="column-2">
-        <p>2</p>
-    </div>
-    <div class="column-2">
-        <p>3</p>
-    </div>
-</div>
-<div class="row">
-    <div class="column-4">
-        <p>4</p>
-    </div>
-    <div class="column-4">
-        <p>5</p>
-    </div>
-    <div class="column-4">
-        <p>6</p>
-    </div>
-    <div class="column-4">
-        <p>7</p>
-    </div>
-</div>
-<div class="row">
-    <div class="column-2">
-        <p>8</p>
-    </div>
-    <div class="column-2">
-        <p>9</p>
-    </div>
-</div>
-<div class="row">
-    <div class="column-3">
-        <p>10</p>
-    </div>
-    <div class="column-3">
-        <p>11</p>
-    </div>
-    <div class="column-3">
-        <p>12</p>
-    </div>
-</div>
 
+<body>
+    <div class="row header ">
+        <p id="ingles"><a id="ingles" href="en/index.html">Inglés</a> <a id="ingles" href="pdfs/CV-Rafael García.pdf" download>Descargar en PDF</a></p>
+        <div class="column-1 flex">
+            <img id="fotoheader" src="img/fotoheader.png" alt="foto del autor">
+        </div>
+        <div class="column1 textheader flex">
+            <h2>¡Hola!<br>Soy Rafael García.</h2>
+        </div>
+        <div class="column1 textheader flex headerp">
+            <p>Bienvenidos a mi Curriculum Vitae transformado en una pagina web, espero que os interese.</p>
+        </div>
+    </div>
+    <div class="row info">
+        <div class="column-2 flex">
+            <div class="textoinfo">
+                <h3>Objetivo profesional:</h3>
+                <p>Soy estudiante de segundo curso del CFGM de Sistemas Microinformáticos y Redes, y actualmente estoy buscando trabajo donde pueda poner en práctica todo lo que he aprendido. Además, me considero una persona responsable, trabajadora y buen
+                    compañero.
+                </p>
+            </div>
+        </div>
+        <div class="column-2 videoinfo flex">
+            <iframe width="100%" height="350" src="https://www.youtube.com/embed/g4YbzcG8gec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row laboral">
+        <div class="column-2">
+            <div class="practica1">
+                <a href="https://logisber.com"><img src="img/experiencialaboral 1.jpg" alt="empresa Logisber"></a>
+                <h4>Logisber Forwarding, S.L.</h4>
+                <p>Prácticas en verificación y corrección de datos empresariales en CargoWise</p>
+            </div>
+        </div>
+        <div class="column-2">
+            <div class="practica2">
+                <a href="https://www.santgervasi.fje.edu/ca"><img src="img/experiencalaboral2.png" alt="Jesuïtes Sant Gervasi"></a>
+                <h4>Jesuïtes Sant Gervasi - Infant Jesús</h4>
+                <p>Prácticas como técnico informático</p>
+            </div>
+        </div>
+    </div>
+    <div class="row form flex">
+        <div class="column-2 flex">
+            <a href="https://joan23.fje.edu/ca"><img src="img/formacion1.jpg" alt="Joan23"></a>
+        </div>
+        <div class="column-2">
+            <h4>2020-Cursando. CFGM Sistemas Microinformàtics i Xarxes Jesuïtes Bellvitge - C.E JoanXXIII
+            </h4>
+        </div>
+    </div>
+    <div class="row form flex">
+        <div class="column-2">
+            <h4>2016-2020. Educación secundaria (ESO) Escola Sant Ramon Nonat
+            </h4>
+        </div>
+        <div class="column-2 flex">
+            <a href="http://www.santramonnonat.org/"><img src="img/formacion2.jpg" alt="Sant Ramon Nonat"></a>
+        </div>
+    </div>
+    <div class="row hblt">
+        <div class="column-1 flex">
+            <h4>Capacidades Personales</h4>
+        </div>
+        <div class="column-3 flex">
+            <div class="capper">
+                <label for="file">Compromiso</label><br>
+                <progress id="file" max="100" value="100"> 100% </progress>
+            </div>
+        </div>
+        <div class="column-3 flex">
+            <div class="capper">
+                <label for="file">Iniciativa</label><br>
+                <progress id="file" max="100" value="90"> 90% </progress>
+            </div>
+        </div>
+        <div class="column-3 flex">
+            <div class="capper">
+                <label for="file">Autonomía</label><br>
+                <progress id="file" max="100" value="70"> 70% </progress>
+            </div>
+        </div>
+        <div class="column-3 flex">
+            <div class="capper">
+                <label for="file">Liderazgo</label><br>
+                <progress id="file" max="100" value="50"> 50% </progress>
+            </div>
+        </div>
+        <div class="column-3 flex">
+            <div class="capper">
+                <label for="file">Comunicación</label><br>
+                <progress id="file" max="100" value="80"> 80% </progress>
+            </div>
+        </div>
+        <div class="column-3 flex">
+            <div class="capper">
+                <label for="file">Trabajo en equipo</label><br>
+                <progress id="file" max="100" value="60"> 60% </progress>
+            </div>
+        </div>
+    </div>
+    <div class="row nolbl">
+        <div class="column-1 flex">
+            <h4>Actividades no laborables</h4>
+        </div>
+        <div class="column-3 flex">
+            <div>
+                <img src="img/voluntariado1.jpg" alt="">
+                <p>Voluntariados de ayuda al aprendizaje de los niños pequeños</p>
+            </div>
+        </div>
+        <div class="column-3 flex">
+            <div>
+                <img src="img/voluntariado2.jpg" alt="">
+                <p>Organización de actividades deportivas en colegios</p>
+            </div>
+        </div>
+        <div class="column-3 flex">
+            <div>
+                <img src="img/voluntariado3.jpg" alt="">
+                <p>Ayuda a personas mayores en una residencia</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row">
+            <div class="column-1 flex">
+                <h5>¡Gracias por visitarlo!</h5>
+            </div>
+        </div>
+        <div class="row flex">
+            <div>
+                <div class="column-2 clm2">
+                    <p><img src="img/telefono.png" alt="teléfono"><br>+34 610 88 62 81</p>
+                </div>
+                <div class="column-2 clm2">
+                    <p><img src="img/mail.png" alt="gmail">rafaeldavid2004@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class=" row flex">
+            <div class="">
+                <div class="column-4">
+                    <a href="https://github.com/RafaelGFDR"><img src="img/github.png" alt="github"></a>
+                </div>
+                <div class="column-4">
+                    <a href="https://twitter.com/Icy_rf_"><img src="img/twitter.png" alt="twitter"></a>
+                </div>
+                <div class="column-4">
+                    <a href="https://www.instagram.com/icy_rf/"><img src="img/instagram.png" alt="instagram"></a>
+                </div>
+                <div class="column-4">
+                    <a href="https://www.facebook.com/RafaelGarcia30/"><img src="img/facebook.png" alt="facebook"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
